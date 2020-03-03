@@ -12,6 +12,7 @@ $secondary-color-alt: #E56554;
   nav {
     justify-content: flex-start;
     background: none !important;
+    overflow:visible;
 
     .logo {
       display: none;
@@ -29,17 +30,15 @@ $secondary-color-alt: #E56554;
       height: 100%;
       background: #15191C;
 
-      i {
-        color: white;
-        position: absolute;
-        bottom: 0;
-        padding-bottom: 2rem;
-        font-size: 2rem;
-      }
+ 
 
       li {
         padding: 2rem;
-
+        i {
+          color: white;
+          padding-bottom: 2rem;
+          font-size: 2rem;
+        }
         a {
           font-size: 1.2rem;
           text-align: center;
@@ -55,6 +54,8 @@ $secondary-color-alt: #E56554;
     }
 
     .burger {
+    overflow:visible;
+
       display: block !important;
       height: 5vh;
       color: white;

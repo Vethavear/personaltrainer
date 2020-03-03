@@ -36,6 +36,7 @@ const navSlide = () => {
 };
 
 navSlide();
+
 $('.links a').on("click", function () {
   $('.links').removeClass('active');
   $('.burger').removeClass('toggle');
