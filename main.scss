@@ -429,7 +429,7 @@ nav {
           height: 100%;
           flex: 1;
           transition: all 0.5s;
-          box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
+          box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
 
           h1 {
             text-align: center;
@@ -465,7 +465,7 @@ nav {
           padding: 2rem;
           margin: 0 1rem;
 
-          box-shadow: 0 10px 20px rgba(0, 0, 0, 0.19), 0 6px 6px rgba(0, 0, 0, 0.23);
+          box-shadow: 0 2px 4px rgba(0,0,0,0.12), 0 2px 3px rgba(0,0,0,0.24);
 
           .slideout-content {
             display: flex;
@@ -481,9 +481,9 @@ nav {
             }
 
             .book {
-              box-shadow: 0 10px 20px rgba(0, 0, 0, 0.19), 0 6px 6px rgba(0, 0, 0, 0.23);
+              box-shadow: 0 3px 6px rgba(rgb(5, 5, 5), 0.1), 0 3px 6px rgba(rgb(115,222,236), 0.1);
             }
-
+          
             h1 {
               margin-bottom: 1rem;
             }
@@ -555,8 +555,8 @@ nav {
     justify-content: space-evenly;
   }
 
-  /* THE CARD HOLDS THE FRONT AND BACK FACES */
   .thecard {
+    
     position: relative;
     width: 300px;
     height: 300px;
@@ -564,13 +564,14 @@ nav {
     transform-style: preserve-3d;
     transition: all 0.8s ease;
 
-    /* THE PSUEDO CLASS CONTROLS THE FLIP ON MOUSEOVER AND MOUSEOUT */
+
     &:hover {
       transform: rotateY(180deg);
     }
 
-    /* THE FRONT FACE OF THE CARD, WHICH SHOWS BY DEFAULT */
+
     .thefront {
+      
       position: absolute;
       top: 0;
       left: 0;
@@ -750,7 +751,7 @@ nav {
     i {
       font-size: 3rem;
       color: white;
-      transition: all 0.5s;
+      transition: all 0.2s;
       cursor: pointer;
 
       &:hover {
