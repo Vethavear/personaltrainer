@@ -13,12 +13,13 @@ $secondary-color-alt: #E56554;
     justify-content: flex-start;
     background: none !important;
     overflow:visible;
-
+    height:10vh;
     .logo {
       display: none;
     }
 
     ul {
+      transition: all 0.5s;
       z-index: 5;
       align-items: center;
       transform: translateX(100%);
@@ -27,7 +28,6 @@ $secondary-color-alt: #E56554;
       top: 0;
       right: 0;
       width: 40%;
-      height: 100%;
       background: #15191C;
 
  
@@ -56,8 +56,7 @@ $secondary-color-alt: #E56554;
     .burger {
     overflow:visible;
 
-      display: block !important;
-      height: 5vh;
+display:flex;
       color: white;
 
       div {
