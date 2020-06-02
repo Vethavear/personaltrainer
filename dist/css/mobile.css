@@ -8,11 +8,14 @@
             justify-content: flex-start;
     background: none !important;
     overflow: visible;
+    height: 10vh;
   }
   nav .logo {
     display: none;
   }
   nav ul {
+    -webkit-transition: all 0.5s;
+    transition: all 0.5s;
     z-index: 5;
     -webkit-box-align: center;
         -ms-flex-align: center;
@@ -27,7 +30,6 @@
     top: 0;
     right: 0;
     width: 40%;
-    height: 100%;
     background: #15191C;
   }
   nav ul li {
@@ -49,8 +51,9 @@
   }
   nav .burger {
     overflow: visible;
-    display: block !important;
-    height: 5vh;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
     color: white;
   }
   nav .burger div {
