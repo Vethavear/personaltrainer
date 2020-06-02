@@ -26,7 +26,6 @@ $('#links .link a').on('click', function (event) {
 const navSlide = () => {
   const burger = document.querySelector('.burger');
   const nav = document.querySelector('#links');
-  const navbar = document.querySelector('#nav');
   const links = document.getElementById('links');
   burger.addEventListener('click', () => {
     nav.classList.toggle('active');

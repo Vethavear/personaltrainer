@@ -113,7 +113,7 @@
   padding: 0;
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
-  font-family: 'Muli', sans-serif;
+  font-family: "Muli", sans-serif;
 }
 
 nav {
@@ -135,7 +135,7 @@ nav .logo h1 {
 }
 
 nav .logo h1 span {
-  color: #55DEF1;
+  color: #55def1;
 }
 
 nav ul {
@@ -166,29 +166,29 @@ nav ul li a {
 }
 
 nav ul li a::before {
-  content: '';
+  content: "";
   width: 10px;
   height: 10px;
   position: absolute;
   top: 0;
   left: 0;
   opacity: 0;
-  border-left: 5px solid #55DEF1;
-  border-top: 5px solid #55DEF1;
+  border-left: 5px solid #55def1;
+  border-top: 5px solid #55def1;
   -webkit-transition: all 0.5s;
   transition: all 0.5s;
 }
 
 nav ul li a::after {
-  content: '';
+  content: "";
   width: 10px;
   height: 10px;
   position: absolute;
   bottom: 0;
   right: 0;
   opacity: 0;
-  border-bottom: 5px solid #55DEF1;
-  border-right: 5px solid #55DEF1;
+  border-bottom: 5px solid #55def1;
+  border-right: 5px solid #55def1;
   -webkit-transition: all 0.5s;
   transition: all 0.5s;
 }
@@ -203,7 +203,7 @@ nav ul li a:hover::before, nav ul li a:hover::after {
 }
 
 nav .burger {
-  background: #15191C;
+  background: #15191c;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
@@ -229,7 +229,7 @@ nav .burger div {
   text-decoration: none;
   color: black;
   padding: 1rem;
-  background: #55DEF1;
+  background: #55def1;
   font-size: 1.5rem;
   border-radius: 0.25rem;
   margin-top: 1rem;
@@ -242,7 +242,7 @@ nav .burger div {
 }
 
 .book::before {
-  content: '';
+  content: "";
   position: absolute;
   background: #c73421;
   top: 0;
@@ -331,7 +331,7 @@ nav .burger div {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  background: #15191C;
+  background: #15191c;
   color: white;
   -webkit-box-flex: 1;
       -ms-flex: 1;
@@ -340,14 +340,14 @@ nav .burger div {
 
 #icons .item i {
   font-size: 5rem;
-  color: #73DEEC;
+  color: #73deec;
   margin-top: 5rem;
   margin-bottom: 3rem;
 }
 
 #icons .item .fa-heart {
-  -webkit-animation: .8s infinite heartBeat;
-          animation: .8s infinite heartBeat;
+  -webkit-animation: 0.8s infinite heartBeat;
+          animation: 0.8s infinite heartBeat;
 }
 
 #icons .item h1 {
@@ -361,15 +361,15 @@ nav .burger div {
 
 #icons .item:nth-child(even) {
   color: black;
-  background: #73DEEC;
+  background: #73deec;
 }
 
 #icons .item:nth-child(even) i {
-  color: #15191C;
+  color: #15191c;
 }
 
 #icons .item:nth-child(even) .overlay {
-  background: #15191C;
+  background: #15191c;
 }
 
 #icons .item:nth-child(even) .overlay .overlay-content {
@@ -377,7 +377,7 @@ nav .burger div {
 }
 
 #icons .item:nth-child(even) .overlay .overlay-content .book {
-  background: #55DEF1;
+  background: #55def1;
   color: black;
 }
 
@@ -397,12 +397,12 @@ nav .burger div {
   height: 0%;
   -webkit-transition: 0.3s ease-in;
   transition: 0.3s ease-in;
-  background: #73DEEC;
+  background: #73deec;
 }
 
 #icons .item .overlay .overlay-content {
-  -webkit-transition: .5s;
-  transition: .5s;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
   height: 100%;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -421,7 +421,7 @@ nav .burger div {
 }
 
 #icons .item .overlay .overlay-content .book {
-  background: #15191C;
+  background: #15191c;
   color: white;
 }
 
@@ -545,8 +545,8 @@ nav .burger div {
 }
 
 #offer .container .items .item .inactive {
-  background: #55DEF1;
-  color: #5D5B5D;
+  background: #55def1;
+  color: #5d5b5d;
   height: 100%;
   -webkit-box-flex: 1;
       -ms-flex: 1;
@@ -580,9 +580,9 @@ nav .burger div {
   font-size: 2rem;
   padding-bottom: 2rem;
   position: relative;
-  color: #5D5B5D;
-  -webkit-animation: .8s infinite glowing;
-          animation: .8s infinite glowing;
+  color: #5d5b5d;
+  -webkit-animation: 0.8s infinite glowing;
+          animation: 0.8s infinite glowing;
 }
 
 #offer .container .items .item .slideout {
@@ -595,7 +595,7 @@ nav .burger div {
   transition: 1s;
   opacity: 0;
   height: 100%;
-  background: #73DEEC;
+  background: #73deec;
   padding: 2rem;
   margin: 0 1rem;
   -webkit-box-shadow: 0 2px 4px rgba(0, 0, 0, 0.12), 0 2px 3px rgba(0, 0, 0, 0.24);
@@ -648,7 +648,7 @@ nav .burger div {
 }
 
 #partners {
-  background: #15191C;
+  background: #15191c;
   padding-bottom: 5rem;
 }
 
@@ -684,11 +684,11 @@ nav .burger div {
 }
 
 #partners .partners-container .item i:hover {
-  color: #55DEF1;
+  color: #55def1;
   -webkit-transform: scale(1.1);
           transform: scale(1.1);
-  -webkit-animation: .8s infinite heartBeat;
-          animation: .8s infinite heartBeat;
+  -webkit-animation: 0.8s infinite heartBeat;
+          animation: 0.8s infinite heartBeat;
 }
 
 #stats {
@@ -734,8 +734,8 @@ nav .burger div {
   -webkit-backface-visibility: hidden;
           backface-visibility: hidden;
   overflow: hidden;
-  background: #73DEEC;
-  color: #15191C;
+  background: #73deec;
+  color: #15191c;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -750,7 +750,7 @@ nav .burger div {
   font-size: 3rem;
   text-align: center;
   margin-top: 4rem;
-  font-family: 'Lilita One', cursive;
+  font-family: "Lilita One", cursive;
 }
 
 #stats .thecard .thefront h1 {
@@ -778,7 +778,7 @@ nav .burger div {
   -webkit-backface-visibility: hidden;
           backface-visibility: hidden;
   overflow: hidden;
-  background: #15191C;
+  background: #15191c;
   color: white;
   text-align: center;
   -webkit-transform: rotateY(180deg);
@@ -811,7 +811,7 @@ nav .burger div {
 
 #contact {
   padding-bottom: 5rem;
-  background: #15191C;
+  background: #15191c;
   position: relative;
 }
 
@@ -877,8 +877,8 @@ nav .burger div {
 #contact form input,
 #contact form textarea,
 #contact form button {
-  -webkit-box-shadow: inset 0 0 1px #55DEF1, 0 0 2px #55DEF1;
-          box-shadow: inset 0 0 1px #55DEF1, 0 0 2px #55DEF1;
+  -webkit-box-shadow: inset 0 0 1px #55def1, 0 0 2px #55def1;
+          box-shadow: inset 0 0 1px #55def1, 0 0 2px #55def1;
   border: none;
 }
 
@@ -886,9 +886,9 @@ nav .burger div {
   padding: 0.5rem 0;
   border-radius: 0.25rem;
   width: 50%;
-  -webkit-box-shadow: inset 0 0 1px #55DEF1, 0 0 2px #55DEF1;
-          box-shadow: inset 0 0 1px #55DEF1, 0 0 2px #55DEF1;
-  color: #15191C;
+  -webkit-box-shadow: inset 0 0 1px #55def1, 0 0 2px #55def1;
+          box-shadow: inset 0 0 1px #55def1, 0 0 2px #55def1;
+  color: #15191c;
   font-size: 1.1rem;
   background: #fff;
   border: none;
@@ -899,13 +899,13 @@ nav .burger div {
 }
 
 #contact form button:before {
-  content: '';
+  content: "";
   position: absolute;
   top: 0;
   bottom: 0;
   left: 0;
   right: 0;
-  background-color: #55DEF1;
+  background-color: #55def1;
   -webkit-transform: translateX(-100%);
           transform: translateX(-100%);
   -webkit-transition: all 0.5s;
@@ -914,7 +914,7 @@ nav .burger div {
 }
 
 #contact form button:hover {
-  color: tint(#55DEF1, 75%);
+  color: tint(#55def1, 75%);
 }
 
 #contact form button:hover:before {
@@ -942,7 +942,7 @@ nav .burger div {
 #contact .icons i:hover {
   -webkit-transform: scale(1.1);
           transform: scale(1.1);
-  color: #55DEF1;
+  color: #55def1;
 }
 
 #contact .copy {

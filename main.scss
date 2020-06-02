@@ -1,7 +1,7 @@
-$primary-color: #55DEF1;
-$primary-color-alt: #73DEEC;
+$primary-color: #55def1;
+$primary-color-alt: #73deec;
 $secondary-color: #c73421;
-$secondary-color-alt: #E56554;
+$secondary-color-alt: #e56554;
 
 @keyframes bounceIn {
   0% {
@@ -62,7 +62,7 @@ $secondary-color-alt: #E56554;
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-family: 'Muli', sans-serif;
+  font-family: "Muli", sans-serif;
 }
 
 nav {
@@ -80,7 +80,6 @@ nav {
 
       span {
         color: $primary-color;
-
       }
     }
   }
@@ -105,9 +104,8 @@ nav {
         position: relative;
         transition: all 0.5s;
 
-
         &::before {
-          content: '';
+          content: "";
           width: 10px;
           height: 10px;
           position: absolute;
@@ -118,11 +116,10 @@ nav {
 
           border-top: 5px solid $primary-color;
           transition: all 0.5s;
-
         }
 
         &::after {
-          content: '';
+          content: "";
           width: 10px;
           height: 10px;
           position: absolute;
@@ -132,7 +129,6 @@ nav {
           border-bottom: 5px solid $primary-color;
           border-right: 5px solid $primary-color;
           transition: all 0.5s;
-
         }
 
         &:hover {
@@ -148,15 +144,15 @@ nav {
   }
 
   .burger {
-    background: #15191C;
+    background: #15191c;
     // border-radius: 0.25rem;
     flex-direction: column;
     align-items: center;
     justify-content: center;
     padding: 1rem 1rem;
     display: none;
-          // display: block !important;
-      // height: 5vh;
+    // display: block !important;
+    // height: 5vh;
   }
 
   .burger div {
@@ -182,7 +178,7 @@ nav {
   display: inline-block;
 
   &::before {
-    content: '';
+    content: "";
     position: absolute;
     background: $secondary-color;
     top: 0;
@@ -202,13 +198,11 @@ nav {
       transform: translateX(0);
     }
   }
-
-
 }
 
 #showcase {
   height: 100vh;
-  background: url('../img/bg.jpeg') center center/cover no-repeat;
+  background: url("../img/bg.jpeg") center center/cover no-repeat;
 
   .showcase-content {
     background: rgba(0, 0, 0, 0.4);
@@ -218,7 +212,6 @@ nav {
     justify-content: center;
     align-items: center;
     color: white;
-
 
     h1 {
       animation-duration: 2s;
@@ -231,7 +224,6 @@ nav {
       animation-name: bounceIn;
       font-size: 2rem;
     }
-
   }
 }
 
@@ -247,7 +239,7 @@ nav {
     display: flex;
     flex-direction: column;
     align-items: center;
-    background: #15191C;
+    background: #15191c;
     color: white;
     flex: 1;
 
@@ -259,7 +251,7 @@ nav {
     }
 
     .fa-heart {
-      animation: .8s infinite heartBeat;
+      animation: 0.8s infinite heartBeat;
     }
 
     h1 {
@@ -276,12 +268,11 @@ nav {
       background: $primary-color-alt;
 
       i {
-        color: #15191C;
+        color: #15191c;
       }
 
       .overlay {
-        background: #15191C;
-
+        background: #15191c;
 
         .overlay-content {
           color: white;
@@ -299,7 +290,6 @@ nav {
       height: 100%;
     }
 
-
     .overlay {
       z-index: 1;
       position: absolute;
@@ -312,9 +302,8 @@ nav {
       transition: 0.3s ease-in;
       background: $primary-color-alt;
 
-
       .overlay-content {
-        transition: .5s;
+        transition: 0.5s;
         height: 100%;
         display: flex;
         flex-direction: column;
@@ -323,9 +312,8 @@ nav {
         color: black;
 
         .book {
-          background: #15191C;
+          background: #15191c;
           color: white;
-
         }
       }
     }
@@ -341,7 +329,6 @@ nav {
 
 #about {
   .container {
-
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -362,10 +349,9 @@ nav {
   width: 100%;
   height: 50vh;
   margin: 3rem 0;
-  background: url('../img/1.jpg') center center/cover no-repeat;
+  background: url("../img/1.jpg") center center/cover no-repeat;
   position: relative;
   overflow: hidden;
-
 
   .overlay {
     background: rgba(0, 0, 0, 0.4);
@@ -386,7 +372,6 @@ nav {
       align-items: center;
       color: white;
       transition: all 0.7s;
-
     }
   }
 
@@ -407,9 +392,7 @@ nav {
         margin: 1rem 0;
       }
     }
-
   }
-
 }
 
 #offer {
@@ -433,11 +416,11 @@ nav {
 
         .inactive {
           background: $primary-color;
-          color: #5D5B5D;
+          color: #5d5b5d;
           height: 100%;
           flex: 1;
           transition: all 0.5s;
-          box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+          box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
 
           h1 {
             text-align: center;
@@ -451,14 +434,12 @@ nav {
           margin: 0 1rem;
 
           .icon {
-
             i {
               font-size: 2rem;
               padding-bottom: 2rem;
               position: relative;
-              color: #5D5B5D;
-              animation: .8s infinite glowing;
-
+              color: #5d5b5d;
+              animation: 0.8s infinite glowing;
             }
           }
         }
@@ -473,7 +454,7 @@ nav {
           padding: 2rem;
           margin: 0 1rem;
 
-          box-shadow: 0 2px 4px rgba(0,0,0,0.12), 0 2px 3px rgba(0,0,0,0.24);
+          box-shadow: 0 2px 4px rgba(0, 0, 0, 0.12), 0 2px 3px rgba(0, 0, 0, 0.24);
 
           .slideout-content {
             display: flex;
@@ -485,13 +466,12 @@ nav {
             .book {
               margin: 0;
               text-align: center;
-
             }
 
             .book {
-              box-shadow: 0 3px 6px rgba(rgb(5, 5, 5), 0.1), 0 3px 6px rgba(rgb(115,222,236), 0.1);
+              box-shadow: 0 3px 6px rgba(rgb(5, 5, 5), 0.1), 0 3px 6px rgba(rgb(115, 222, 236), 0.1);
             }
-          
+
             h1 {
               margin-bottom: 1rem;
             }
@@ -516,7 +496,7 @@ nav {
 }
 
 #partners {
-  background: #15191C;
+  background: #15191c;
   padding-bottom: 5rem;
 
   h1 {
@@ -543,11 +523,8 @@ nav {
         &:hover {
           color: $primary-color;
           transform: scale(1.1);
-          animation: .8s infinite heartBeat;
+          animation: 0.8s infinite heartBeat;
         }
-
-
-
       }
     }
   }
@@ -564,7 +541,6 @@ nav {
   }
 
   .thecard {
-    
     position: relative;
     width: 300px;
     height: 300px;
@@ -572,14 +548,11 @@ nav {
     transform-style: preserve-3d;
     transition: all 0.8s ease;
 
-
     &:hover {
       transform: rotateY(180deg);
     }
 
-
     .thefront {
-      
       position: absolute;
       top: 0;
       left: 0;
@@ -589,7 +562,7 @@ nav {
       backface-visibility: hidden;
       overflow: hidden;
       background: $primary-color-alt;
-      color: #15191C;
+      color: #15191c;
       display: flex;
       flex-direction: column;
 
@@ -598,8 +571,7 @@ nav {
         font-size: 3rem;
         text-align: center;
         margin-top: 4rem;
-        font-family: 'Lilita One', cursive;
-
+        font-family: "Lilita One", cursive;
       }
 
       h1 {
@@ -616,8 +588,6 @@ nav {
         font-size: 3rem;
         padding: 1rem;
       }
-
-
     }
 
     /* THE BACK FACE OF THE CARD, WHICH SHOWS ON MOUSEOVER */
@@ -630,7 +600,7 @@ nav {
       border-radius: 10px;
       backface-visibility: hidden;
       overflow: hidden;
-      background: #15191C;
+      background: #15191c;
       color: white;
       text-align: center;
       transform: rotateY(180deg);
@@ -638,7 +608,6 @@ nav {
       flex-direction: column;
       justify-content: center;
     }
-
 
     /*This block (starts here) is merely styling for the flip card, and is NOT an essential part of the flip code */
 
@@ -648,7 +617,6 @@ nav {
       font-size: 1.5rem;
       text-align: center;
     }
-
 
     .theback p {
       padding: 1.2rem;
@@ -660,9 +628,8 @@ nav {
 }
 
 #contact {
-
   padding-bottom: 5rem;
-  background: #15191C;
+  background: #15191c;
   position: relative;
 
   .phone {
@@ -706,10 +673,7 @@ nav {
     input,
     textarea,
     button {
-      // box-shadow: inset 0 0 10px #15191C,
-      // 0 0 5px $primary-color-alt;
-      box-shadow: inset 0 0 1px $primary-color,
-        0 0 2px $primary-color;
+      box-shadow: inset 0 0 1px $primary-color, 0 0 2px $primary-color;
       border: none;
     }
 
@@ -717,9 +681,8 @@ nav {
       padding: 0.5rem 0;
       border-radius: 0.25rem;
       width: 50%;
-      box-shadow: inset 0 0 1px $primary-color,
-        0 0 2px $primary-color;
-      color: #15191C;
+      box-shadow: inset 0 0 1px $primary-color, 0 0 2px $primary-color;
+      color: #15191c;
       font-size: 1.1rem;
       background: #fff;
       border: none;
@@ -729,7 +692,7 @@ nav {
       z-index: 1;
 
       &:before {
-        content: '';
+        content: "";
         position: absolute;
         top: 0;
         bottom: 0;
@@ -739,7 +702,6 @@ nav {
         transform: translateX(-100%);
         transition: all 0.5s;
         z-index: -1;
-
       }
 
       &:hover {
