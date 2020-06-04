@@ -30,7 +30,7 @@
     top: 0;
     right: 0;
     width: 40%;
-    background: #15191C;
+    background: #15191c;
   }
   nav ul li {
     padding: 2rem;
@@ -46,8 +46,8 @@
     padding: 0 0.7rem;
   }
   nav ul li a::before {
-    border-left: 0px solid #55DEF1;
-    border-top: 0px solid #55DEF1;
+    border-left: 0px solid #55def1;
+    border-top: 0px solid #55def1;
   }
   nav .burger {
     overflow: visible;
@@ -60,6 +60,15 @@
     -webkit-transition: all 0.5s ease-in-out;
     transition: all 0.5s ease-in-out;
   }
+}
+
+@media (max-width: 900px) and (orientation: landscape) {
+  nav {
+    height: 15vh;
+  }
+}
+
+@media (max-width: 900px) {
   .book {
     font-size: 1.2rem;
   }
