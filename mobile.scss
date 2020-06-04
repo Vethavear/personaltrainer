@@ -1,10 +1,9 @@
-$primary-color: #55DEF1;
-$primary-color-alt: #73DEEC;
+$primary-color: #55def1;
+$primary-color-alt: #73deec;
 $secondary-color: #c73421;
-$secondary-color-alt: #E56554;
+$secondary-color-alt: #e56554;
 
 @media (max-width: 900px) {
-
   * {
     overflow-x: hidden;
   }
@@ -12,8 +11,8 @@ $secondary-color-alt: #E56554;
   nav {
     justify-content: flex-start;
     background: none !important;
-    overflow:visible;
-    height:10vh;
+    overflow: visible;
+    height: 10vh;
     .logo {
       display: none;
     }
@@ -28,9 +27,7 @@ $secondary-color-alt: #E56554;
       top: 0;
       right: 0;
       width: 40%;
-      background: #15191C;
-
- 
+      background: #15191c;
 
       li {
         padding: 2rem;
@@ -47,16 +44,15 @@ $secondary-color-alt: #E56554;
           &::before {
             border-left: 0px solid $primary-color;
             border-top: 0px solid $primary-color;
-
           }
         }
       }
     }
 
     .burger {
-    overflow:visible;
+      overflow: visible;
 
-display:flex;
+      display: flex;
       color: white;
 
       div {
@@ -64,7 +60,11 @@ display:flex;
       }
     }
   }
-
+@media (orientation: landscape){
+  nav{
+    height: 15vh;
+  }
+}
   .book {
     font-size: 1.2rem;
   }
