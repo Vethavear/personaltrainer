@@ -29,7 +29,7 @@ const navSlide = () => {
   const links = document.getElementById('links');
   burger.addEventListener('click', () => {
     nav.classList.toggle('active');
-    links.style.height = '100vh';
+    links.style.height = 'auto';
     burger.classList.toggle('toggle');
   })
 links.addEventListener('click', (e) =>{

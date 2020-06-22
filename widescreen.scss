@@ -1,0 +1,21 @@
+@media (max-width: 1024px) {
+  #stats {
+    padding: 2rem 0.25rem;
+
+    .container {
+      margin: 0;
+      padding: 0;
+      align-items: center;
+      min-width: 350px;
+
+      .thecard {
+        width: 100%;
+        margin: 1rem 1rem;
+
+        &:hover {
+          transform: rotateY(360deg) !important;
+        }
+      }
+    }
+  }
+}
