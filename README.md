@@ -1,4 +1,4 @@
-<h4 align="center">Diet Calc</h4>
+<h4 align="center">Personal Trainerc</h4>
 
 <p align="center">
   <a >
