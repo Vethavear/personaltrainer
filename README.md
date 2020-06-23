@@ -16,7 +16,7 @@ Example site for personal trainer.
 | HTML                           
 | SASS                           
 | JS                           
-                     
+| jQuery                            
 
 ## Screenshots 📺
 
