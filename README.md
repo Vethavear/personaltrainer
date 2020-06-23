@@ -1,4 +1,4 @@
-<h4 align="center">Personal Trainerc</h4>
+<h4 align="center">Personal Trainer</h4>
 
 <p align="center">
   <a >
